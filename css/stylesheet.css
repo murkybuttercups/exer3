@@ -1,0 +1,80 @@
+/*normalizing rules*/
+
+* {
+    box-sizing: border-box;
+}
+body,
+html {
+    height: 100%;
+    margin: 0px;
+}
+/*svg css*/
+
+.cls-1 {
+    fill: #222749;
+}
+.cls-2 {
+    fill: #dcdde2;
+}
+.cls-3 {
+    fill: #4c3a23;
+}
+.cls-4 {
+    fill: #eab318;
+}
+.cls-5 {
+    fill: #0058b9;
+}
+.cls-6 {
+    fill: #005099;
+}
+.cls-7 {
+    fill: #8b3e00;
+}
+.cls-8 {
+    fill: #42210b;
+}
+.cls-9 {
+    fill: #5c2400;
+}
+.cls-10 {
+    fill: #345700;
+}
+.cls-11 {
+    fill: #347300;
+}
+.cls-12 {
+    fill: #d1ba99;
+}
+.cls-13 {
+    fill: #0d1700;
+}
+.cls-14 {
+    fill: #d1a3a4;
+}
+.cls-15 {
+    fill: #ffb5b5;
+}
+.cls-16 {
+    fill: #007368;
+}
+.cls-17 {
+    fill: #d84141;
+}
+.cls-18 {
+    fill: #ef7820;
+}
+.cls-19 {
+    fill: #931309;
+}
+.cls-20 {
+    fill: #f7530b;
+}
+.cls-21 {
+    fill: #f4bf3b;
+}
+.cls-22 {
+    fill: #827878;
+}
+
+/*animation*/
