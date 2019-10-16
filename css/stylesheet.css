@@ -78,3 +78,118 @@ html {
 }
 
 /*animation*/
+
+.stars {
+    animation-name: twinkle;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
+@keyframes twinkle {
+    from{
+        transform: rotate(0deg)
+    }
+    50%{
+       transform: rotate(1deg) scale(1.1)
+    }
+    to{
+        transform: rotate(-1deg)
+    }
+}
+
+.bigflame {
+    animation-name: bigflame;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
+@keyframes bigflame {
+    from{
+       transform: translateY(9)
+    }
+    to{
+        transform: translateY(-9px)
+    }
+}
+
+.flame1 {
+    animation-name: flame1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
+@keyframes flame1{
+    from{
+       transform: translateY(10)
+    }
+    to{
+        transform: translateY(-10px)
+    }
+}
+
+.flame2 {
+    animation-name: flame2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
+@keyframes flame2{
+    from{
+       transform: translateY(10)
+    }
+    to{
+        transform: translateY(-10px)
+    }
+}
+
+.flame3 {
+    animation-name: flame3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
+@keyframes flame3{
+    from{
+       transform: translateY(10)
+    }
+    to{
+        transform: translateY(-10px)
+    }
+}
+
+.flame4 {
+    animation-name: flame4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
+@keyframes flame4{
+    from{
+       transform: translateY(10)
+    }
+    to{
+        transform: translateY(-10px)
+    }
+}
+
+.eyes {
+    animation-name: eyes;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes eyes {
+    to{
+    }
+    from{
+        transform: scale(1.002) translateY(3px)
+    }
+}
